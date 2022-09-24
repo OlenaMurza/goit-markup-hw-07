@@ -8,7 +8,17 @@
 
 // layout styles
 @import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/work";
+@import "./layouts/team";
+@import "./layouts/client";
+@import "./layouts/portfolio";
 
 
 // components styles
 @import "./components/logo";
+@import "./components/modal";
+@import "./components/button";
+@import "./components/social";
+@import "./components/footer";
