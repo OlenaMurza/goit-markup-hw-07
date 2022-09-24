@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #ECECEC;
+    text-align: center;
+}
+
+.header__container,
+.header__top,
+.header__list {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

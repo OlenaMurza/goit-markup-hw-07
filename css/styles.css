@@ -1,7 +1,7 @@
 
-body {
+/* body {
     font-family: 'Roboto', sans-serif;
-   }
+   } */
     
  ul {
     list-style-type: none;
@@ -805,7 +805,7 @@ color: #2196F3;
     background-color: #2F303A;
 }
 
-
+/* 
 .logo2 {
     display: block;
            
@@ -827,7 +827,7 @@ color: #2196F3;
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: #FFFFFF;  
-}
+} */
 
 .contact-footer {
     display: inline;
