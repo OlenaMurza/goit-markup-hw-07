@@ -133,10 +133,16 @@ img {
     color: #2196f3;
 }
 
+.header__list-item:last-child {
+    margin-right: 0;
+}
+
  /* email_tel */
 .header__link:last-child {
     margin-right: 0;
 }
+
+
 
 .header__link {
     display: flex;
@@ -1029,17 +1035,17 @@ justify-content: center;
 letter-spacing: 0.06em;
 } */
 
-
+/* 
 .subscription-icon {
     fill: #fff;
     margin-left: 10px;
-}
+} */
 
 /* Portfolio */
   /* top-line */
 
 
-.list-item1:last-child {
+.header__list-item:last-child {
     margin-right: 0;
 }
 
