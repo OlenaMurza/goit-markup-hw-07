@@ -76,7 +76,7 @@ img {
 } */
 
     /* navigation */
-.header__list {
+/* .header__list {
     gap: 50px;
     margin: 0;
     margin-right: auto;
@@ -135,10 +135,10 @@ img {
 
 .header__list-item:last-child {
     margin-right: 0;
-}
+} */
 
  /* email_tel */
-.header__link:last-child {
+/* .header__link:last-child {
     margin-right: 0;
 }
 
@@ -182,7 +182,7 @@ img {
 .header__link:hover,
 .header__link:focus {
     color: #2196f3;
-}
+} */
 
 /* MAIN */
 
@@ -1044,10 +1044,10 @@ letter-spacing: 0.06em;
 /* Portfolio */
   /* top-line */
 
-
+/* 
 .header__list-item:last-child {
     margin-right: 0;
-}
+} */
 
 
 
@@ -1055,7 +1055,7 @@ letter-spacing: 0.06em;
    
   /*portfolio*/
 
-.group {
+/* .group {
     padding: 0;
    
 }
@@ -1072,6 +1072,7 @@ letter-spacing: 0.06em;
     gap: 8px;
     justify-content: center;
     margin-bottom: 50px;
+} */
 
     /* border: none;
     width: 1200px;   
@@ -1087,8 +1088,8 @@ letter-spacing: 0.06em;
     letter-spacing: 0.03em;
     color: #212121;
     cursor: pointer; */
-  }
-
+  
+/* 
 .button__item {
   
     padding: 6px 22px;
@@ -1118,10 +1119,10 @@ letter-spacing: 0.06em;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
   /*project*/
-
+/* 
   
 .project {
     display: flex;
@@ -1162,13 +1163,13 @@ letter-spacing: 0.06em;
     color: #fff;
 }
 
-.list-item2 {  
+.project__list {  
     width: 370px;
 }
 
-.list-item2:hover .overlay {
+.project__list:hover .overlay {
     transform: translateY(0);    
-}
+} */
 
 /* 
 .list-item2:hover,
@@ -1179,7 +1180,7 @@ letter-spacing: 0.06em;
 
     } */
 
-.project-img {
+/* .project__img {
     display: block;
     text-decoration: none;
    
@@ -1187,23 +1188,25 @@ letter-spacing: 0.06em;
     transition-property: box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+     */
     /* margin-block: 370px 400px;
     margin-block: inherit;
     margin-bottom: 20px;
     background: url(2910404.jpg);
     border: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE; */
-}
 
-.project-img:focus .overlay {
+/* 
+.project__img:focus .overlay {
     transform: translateY(0);
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
             1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-img:hover,
-.project-img:focus {
+.project__img:hover,
+.project__img:focus {
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
             1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -1221,7 +1224,7 @@ letter-spacing: 0.06em;
 }
 
 
-.project-title-item {
+.project-title__item {
 margin: 0;
 margin-bottom: 4px;
 padding: 0;
@@ -1243,7 +1246,7 @@ padding: 0;
     letter-spacing: 0.03em;
     color: #757575;
    
-  }
+  } */
 
   /*footer* як у сторінки студіо/
 

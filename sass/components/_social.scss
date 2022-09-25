@@ -5,10 +5,11 @@
     justify-content: center;
 }
 
-.social__link {
+.social__link-team {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #AFB1B8;
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -23,14 +24,6 @@
         color: #FFFFFF;
         background-color: #2196F3;
     }
-}
-
-.social__item {
-    color: #AFB1B8;
-}
-
-.social-link {
-    color: #AFB1B8;
 }
 
 .social__icon {
