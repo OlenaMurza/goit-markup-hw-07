@@ -30,30 +30,28 @@
 
     <header class="header">
       <div class="container header__container">
-        <nav class="header__top">
+        <nav class="nav__group">
           <a class="logo" href="/index.html" lang="en"
             >Web<span class="logo__dark">Studio</span></a
           >
-          <ul class="header__list">
-            <li class="header__item">
-              <a
-                class="header__list-item header__list-item--current"
-                href="index.html"
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link nav__link--current" href="index.html"
                 >Студія</a
               >
             </li>
-            <li class="header__item">
-              <a class="header__list-item" href="portfolio.html">Портфоліо</a>
+            <li class="nav__item">
+              <a class="nav__link" href="portfolio.html">Портфоліо</a>
             </li>
-            <li class="header__item">
-              <a class="header__list-item" href="">Контакти</a>
+            <li class="nav__item">
+              <a class="nav__link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header__group">
-          <li class="header__item">
-            <a class="header__link" href="mailto:info@devstudio.com"
+        <ul class="header-contact__list">
+          <li class="header-contact__item">
+            <a class="header-contact__link" href="mailto:info@devstudio.com"
               ><svg class="header__icon-envelope">
                 <use
                   width="16"
@@ -64,8 +62,8 @@
             >
           </li>
 
-          <li class="header__item">
-            <a class="header__link" href="tel:+380961111111"
+          <li class="header-contact__item">
+            <a class="header-contact__link" href="tel:+380961111111"
               ><svg class="header__icon-smartphone">
                 <use
                   width="10"
@@ -578,9 +576,10 @@
                       aria-label="Linkedin"
                     >
                       <svg class="social__icon">
-                        <use href="./images/symbol-defs.svg#linkedin"></use>
-                      </svg>
-                    </a>
+                        <use
+                          href="./images/symbol-defs.svg#linkedin"
+                        ></use></svg
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -592,7 +591,7 @@
       <!-- Постійні клієнти -->
       <section class="section client">
         <div class="container client__container">
-          <h3 class="section__title">Постійні клієнти</h3>
+          <h2 class="section__title">Постійні клієнти</h2>
           <ul class="client__list">
             <li class="client__item">
               <a
@@ -670,10 +669,10 @@
     <footer class="footer">
       <div class="container container__footer">
         <div class="contact__footer">
-          <a href="/index.html" class="logo2" href="/index.html" lang="en"
+          <a href="/index.html" class="logo-footer" href="/index.html" lang="en"
             >Web<span class="logo__white">Studio</span></a
           >
-          <address class="contact__footer">
+          <address class="footer__address">
             <p class="addres">Київ, пр-т Лесі Українки, 26</p>
 
             <ul class="footer__list">
@@ -693,7 +692,7 @@
 
         <div class="social-footer">
           <p class="footer__content">приєднуйтесь</p>
-          <ul class="social-footer__group">
+          <ul class="social-footer__list">
             <li class="social__item">
               <a
                 class="social__link"
@@ -742,8 +741,8 @@
         </div>
 
         <div class="subscription-footer">
-          <p class="content-footer__title">Підпишіться на розсилку</p>
-          <label class="subscription-footer">
+          <p class="subscription-footer__title">Підпишіться на розсилку</p>
+          <label class="subscription-footer__label">
             <input
               class="subscription-footer__mail"
               type="email"

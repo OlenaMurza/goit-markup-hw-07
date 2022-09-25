@@ -9,7 +9,7 @@
 
 .features__list {
     display: flex;
-    margin-right: 30px;
+    gap: 30px;
     flex-wrap: nowrap;
     padding-left: 0;
 }
@@ -19,9 +19,7 @@
 }
 
 .features__item {
-    width: 270px;
-    margin-right: 30px;
-
+    flex-basis: ((100%-3*30px)/4);
 }
 
 .group__features {

@@ -77,9 +77,10 @@
 
 .subscription-footer {
     display: inline-block;
+
 }
 
-.content-footer__title {
+.subscription-footer__title {
     margin: 0;
     margin-bottom: 20px;
 
@@ -91,6 +92,10 @@
     text-transform: uppercase;
 
     color: #FFFFFF;
+}
+
+.subscription-footer__label {
+    margin-right: 12px;
 }
 
 .subscription-footer__mail {
